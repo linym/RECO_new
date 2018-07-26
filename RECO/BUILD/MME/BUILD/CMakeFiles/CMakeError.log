@@ -1,0 +1,58 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /RECO/BUILD/MME/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41184/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41184.dir/build.make CMakeFiles/cmTC_41184.dir/build
+make[1]: Entering directory '/RECO/BUILD/MME/BUILD/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41184.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -msse4.2 -std=gnu99 -Wall -Wstrict-prototypes -fno-strict-aliasing -rdynamic -funroll-loops -Wno-packed-bitfield-compat -fPIC  -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_FCNTL_H=1 -DHAVE_ARPA_INET_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_STRERROR=1 -DHAVE_SOCKET=1 -DHAVE_MEMSET=1 -DHAVE_GETTIMEOFDAY=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1    -o CMakeFiles/cmTC_41184.dir/CheckSymbolExists.c.o   -c /RECO/BUILD/MME/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_41184
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41184.dir/link.txt --verbose=1
+/usr/bin/cc   -msse4.2 -std=gnu99 -Wall -Wstrict-prototypes -fno-strict-aliasing -rdynamic -funroll-loops -Wno-packed-bitfield-compat -fPIC  -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_FCNTL_H=1 -DHAVE_ARPA_INET_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_STRERROR=1 -DHAVE_SOCKET=1 -DHAVE_MEMSET=1 -DHAVE_GETTIMEOFDAY=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1     CMakeFiles/cmTC_41184.dir/CheckSymbolExists.c.o  -o cmTC_41184 -rdynamic 
+CMakeFiles/cmTC_41184.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_41184.dir/build.make:97: recipe for target 'cmTC_41184' failed
+make[1]: *** [cmTC_41184] Error 1
+make[1]: Leaving directory '/RECO/BUILD/MME/BUILD/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_41184/fast' failed
+make: *** [cmTC_41184/fast] Error 2
+
+File /RECO/BUILD/MME/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /RECO/BUILD/MME/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39e39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39e39.dir/build.make CMakeFiles/cmTC_39e39.dir/build
+make[1]: Entering directory '/RECO/BUILD/MME/BUILD/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39e39.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -msse4.2 -std=gnu99 -Wall -Wstrict-prototypes -fno-strict-aliasing -rdynamic -funroll-loops -Wno-packed-bitfield-compat -fPIC  -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_FCNTL_H=1 -DHAVE_ARPA_INET_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_STRERROR=1 -DHAVE_SOCKET=1 -DHAVE_MEMSET=1 -DHAVE_GETTIMEOFDAY=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_39e39.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_39e39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39e39.dir/link.txt --verbose=1
+/usr/bin/cc   -msse4.2 -std=gnu99 -Wall -Wstrict-prototypes -fno-strict-aliasing -rdynamic -funroll-loops -Wno-packed-bitfield-compat -fPIC  -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_FCNTL_H=1 -DHAVE_ARPA_INET_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_STRERROR=1 -DHAVE_SOCKET=1 -DHAVE_MEMSET=1 -DHAVE_GETTIMEOFDAY=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_39e39.dir/CheckFunctionExists.c.o  -o cmTC_39e39 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_39e39.dir/build.make:97: recipe for target 'cmTC_39e39' failed
+make[1]: *** [cmTC_39e39] Error 1
+make[1]: Leaving directory '/RECO/BUILD/MME/BUILD/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_39e39/fast' failed
+make: *** [cmTC_39e39/fast] Error 2
+
+

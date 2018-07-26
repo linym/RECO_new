@@ -1,0 +1,29 @@
+[  1%] Built target BSTR
+[  1%] Built target HASHTABLE
+[  2%] Built target GTPV2C
+[  2%] Built target 3GPP_TYPES
+[  3%] Built target UDP_SERVER
+[  3%] Built target ITTI
+[  4%] Built target SECU_CN
+[  5%] Built target CN_UTILS
+[  5%] Built target SCTP_SERVER
+[  5%] Built target GTPV1U
+[  6%] Built target S11_SGW
+[  7%] Built target SGW
+[ 46%] Built target S1AP_LIB
+[ 46%] Built target S11_MME
+[ 47%] Built target S6A
+[ 48%] Built target HS_S6A
+[ 48%] Built target HMB_S11_MME
+[ 49%] Linking CXX executable mme
+[ 50%] Built target LOCATION
+[ 52%] Built target HMB_MME_APP
+[ 53%] Built target S1AP
+Scanning dependencies of target MME_APP
+[ 53%] Building CXX object CMakeFiles/MME_APP.dir/RECO/SRC/MME_APP/mme_app_main.cpp.o
+[ 68%] Built target HMB_NAS
+[ 83%] Built target HS_NAS
+[ 98%] Built target NAS
+[ 98%] Built target mme
+[ 98%] Linking CXX shared module libMME_APP.so
+[100%] Built target MME_APP

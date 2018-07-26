@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBSTR.a  CMakeFiles/BSTR.dir/RECO/SRC/UTILS/BSTR/bstraux.c.o CMakeFiles/BSTR.dir/RECO/SRC/UTILS/BSTR/bstrlib.c.o CMakeFiles/BSTR.dir/RECO/SRC/UTILS/BSTR/buniutil.c.o CMakeFiles/BSTR.dir/RECO/SRC/UTILS/BSTR/utf8util.c.o
+/usr/bin/ranlib libBSTR.a

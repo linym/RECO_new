@@ -1,0 +1,226 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'libgnutls-dev' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  adwaita-icon-theme at-spi2-core gir1.2-atk-1.0 gir1.2-atspi-2.0
+  gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0 gir1.2-gtk-3.0
+  gir1.2-pango-1.0 glib-networking glib-networking-common
+  glib-networking-services gsettings-desktop-schemas humanity-icon-theme
+  libatk-bridge2.0-0 libatk-bridge2.0-dev libatk1.0-0 libatk1.0-data
+  libatk1.0-dev libatspi2.0-0 libatspi2.0-dev libcairo-gobject2
+  libcairo-script-interpreter2 libcairo2-dev libdbus-1-dev libdrm-dev
+  libegl1-mesa-dev libepoxy-dev libepoxy0 libfontconfig1-dev libfreetype6-dev
+  libgdk-pixbuf2.0-dev libgirepository-1.0-1 libglib2.0-bin libglib2.0-dev
+  libgnutlsxx28 libgtk-3-0 libgtk-3-bin libgtk-3-common libharfbuzz-dev
+  libharfbuzz-gobject0 libharfbuzz-icu0 libice-dev libjson-glib-1.0-0
+  libjson-glib-1.0-common libmirclient-dev libmircommon-dev libmircookie-dev
+  libmircookie2 libmircore-dev libp11-kit-dev libpango1.0-dev
+  libpangoxft-1.0-0 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpixman-1-dev
+  libpng12-dev libprotobuf-dev libprotobuf9v5 librest-0.7-0 libsm-dev
+  libsoup-gnome2.4-1 libsoup2.4-1 libtasn1-6-dev libtasn1-doc libwayland-bin
+  libwayland-cursor0 libwayland-dev libwayland-egl1-mesa libx11-dev libx11-doc
+  libx11-xcb-dev libxau-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev
+  libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev
+  libxcb-shm0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev
+  libxcomposite-dev libxcursor-dev libxdamage-dev libxdmcp-dev libxext-dev
+  libxfixes-dev libxft-dev libxi-dev libxinerama-dev libxkbcommon-dev
+  libxrandr-dev libxrender-dev libxshmfence-dev libxtst-dev libxxf86vm-dev
+  ubuntu-mono x11proto-composite-dev x11proto-core-dev x11proto-damage-dev
+  x11proto-dri2-dev x11proto-fixes-dev x11proto-gl-dev x11proto-input-dev
+  x11proto-kb-dev x11proto-randr-dev x11proto-record-dev x11proto-render-dev
+  x11proto-xext-dev x11proto-xf86vidmode-dev x11proto-xinerama-dev
+  xorg-sgml-doctools xtrans-dev
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Downloading gnutls archive
+--2018-01-29 08:35:17--  http://mirrors.dotsrc.org/gcrypt/gnutls/v3.1/gnutls-3.1.23.tar.xz
+Resolving mirrors.dotsrc.org (mirrors.dotsrc.org)... 130.225.254.116, 2001:878:346::116
+Connecting to mirrors.dotsrc.org (mirrors.dotsrc.org)|130.225.254.116|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5148432 (4.9M) [application/octet-stream]
+Saving to: 'gnutls-3.1.23.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  0% 89.1K 56s
+    50K .......... .......... .......... .......... ..........  1%  183K 41s
+   100K .......... .......... .......... .......... ..........  2%  318K 32s
+   150K .......... .......... .......... .......... ..........  3%  397K 27s
+   200K .......... .......... .......... .......... ..........  4%  575K 23s
+   250K .......... .......... .......... .......... ..........  5%  692K 20s
+   300K .......... .......... .......... .......... ..........  6%  840K 18s
+   350K .......... .......... .......... .......... ..........  7%  892K 16s
+   400K .......... .......... .......... .......... ..........  8% 1.00M 15s
+   450K .......... .......... .......... .......... ..........  9% 1.18M 13s
+   500K .......... .......... .......... .......... .......... 10% 1.24M 12s
+   550K .......... .......... .......... .......... .......... 11% 1.46M 11s
+   600K .......... .......... .......... .......... .......... 12% 1.53M 11s
+   650K .......... .......... .......... .......... .......... 13% 1.66M 10s
+   700K .......... .......... .......... .......... .......... 14% 1.90M 9s
+   750K .......... .......... .......... .......... .......... 15% 1.94M 9s
+   800K .......... .......... .......... .......... .......... 16% 2.06M 8s
+   850K .......... .......... .......... .......... .......... 17% 2.29M 8s
+   900K .......... .......... .......... .......... .......... 18% 2.18M 7s
+   950K .......... .......... .......... .......... .......... 19% 2.57M 7s
+  1000K .......... .......... .......... .......... .......... 20% 2.51M 7s
+  1050K .......... .......... .......... .......... .......... 21% 2.77M 6s
+  1100K .......... .......... .......... .......... .......... 22% 2.73M 6s
+  1150K .......... .......... .......... .......... .......... 23% 2.89M 6s
+  1200K .......... .......... .......... .......... .......... 24% 3.18M 6s
+  1250K .......... .......... .......... .......... .......... 25% 3.02M 5s
+  1300K .......... .......... .......... .......... .......... 26% 3.55M 5s
+  1350K .......... .......... .......... .......... .......... 27% 3.36M 5s
+  1400K .......... .......... .......... .......... .......... 28% 3.52M 5s
+  1450K .......... .......... .......... .......... .......... 29% 3.89M 4s
+  1500K .......... .......... .......... .......... .......... 30% 3.59M 4s
+  1550K .......... .......... .......... .......... .......... 31% 4.16M 4s
+  1600K .......... .......... .......... .......... .......... 32% 4.16M 4s
+  1650K .......... .......... .......... .......... .......... 33% 4.17M 4s
+  1700K .......... .......... .......... .......... .......... 34% 4.69M 4s
+  1750K .......... .......... .......... .......... .......... 35% 4.46M 4s
+  1800K .......... .......... .......... .......... .......... 36% 4.57M 3s
+  1850K .......... .......... .......... .......... .......... 37% 4.71M 3s
+  1900K .......... .......... .......... .......... .......... 38% 4.80M 3s
+  1950K .......... .......... .......... .......... .......... 39% 5.48M 3s
+  2000K .......... .......... .......... .......... .......... 40% 5.10M 3s
+  2050K .......... .......... .......... .......... .......... 41% 5.22M 3s
+  2100K .......... .......... .......... .......... .......... 42% 5.33M 3s
+  2150K .......... .......... .......... .......... .......... 43% 5.89M 3s
+  2200K .......... .......... .......... .......... .......... 44% 5.52M 3s
+  2250K .......... .......... .......... .......... .......... 45% 6.23M 2s
+  2300K .......... .......... .......... .......... .......... 46% 5.87M 2s
+  2350K .......... .......... .......... .......... .......... 47% 5.96M 2s
+  2400K .......... .......... .......... .......... .......... 48% 6.46M 2s
+  2450K .......... .......... .......... .......... .......... 49% 6.09M 2s
+  2500K .......... .......... .......... .......... .......... 50% 6.18M 2s
+  2550K .......... .......... .......... .......... .......... 51% 6.95M 2s
+  2600K .......... .......... .......... .......... .......... 52% 7.36M 2s
+  2650K .......... .......... .......... .......... .......... 53% 6.23M 2s
+  2700K .......... .......... .......... .......... .......... 54% 7.23M 2s
+  2750K .......... .......... .......... .......... .......... 55% 7.13M 2s
+  2800K .......... .......... .......... .......... .......... 56% 6.90M 2s
+  2850K .......... .......... .......... .......... .......... 57% 7.38M 2s
+  2900K .......... .......... .......... .......... .......... 58% 6.90M 2s
+  2950K .......... .......... .......... .......... .......... 59% 7.84M 1s
+  3000K .......... .......... .......... .......... .......... 60% 7.24M 1s
+  3050K .......... .......... .......... .......... .......... 61% 8.77M 1s
+  3100K .......... .......... .......... .......... .......... 62% 6.18M 1s
+  3150K .......... .......... .......... .......... .......... 63% 10.2M 1s
+  3200K .......... .......... .......... .......... .......... 64% 8.18M 1s
+  3250K .......... .......... .......... .......... .......... 65% 7.67M 1s
+  3300K .......... .......... .......... .......... .......... 66% 9.09M 1s
+  3350K .......... .......... .......... .......... .......... 67% 9.31M 1s
+  3400K .......... .......... .......... .......... .......... 68% 8.04M 1s
+  3450K .......... .......... .......... .......... .......... 69% 8.84M 1s
+  3500K .......... .......... .......... .......... .......... 70% 9.43M 1s
+  3550K .......... .......... .......... .......... .......... 71% 8.52M 1s
+  3600K .......... .......... .......... .......... .......... 72% 9.67M 1s
+  3650K .......... .......... .......... .......... .......... 73% 10.1M 1s
+  3700K .......... .......... .......... .......... .......... 74% 9.61M 1s
+  3750K .......... .......... .......... .......... .......... 75% 8.06M 1s
+  3800K .......... .......... .......... .......... .......... 76% 10.1M 1s
+  3850K .......... .......... .......... .......... .......... 77% 11.2M 1s
+  3900K .......... .......... .......... .......... .......... 78% 10.2M 1s
+  3950K .......... .......... .......... .......... .......... 79% 9.68M 1s
+  4000K .......... .......... .......... .......... .......... 80% 8.87M 1s
+  4050K .......... .......... .......... .......... .......... 81% 12.1M 1s
+  4100K .......... .......... .......... .......... .......... 82% 10.8M 0s
+  4150K .......... .......... .......... .......... .......... 83% 10.4M 0s
+  4200K .......... .......... .......... .......... .......... 84% 12.2M 0s
+  4250K .......... .......... .......... .......... .......... 85% 10.4M 0s
+  4300K .......... .......... .......... .......... .......... 86% 8.96M 0s
+  4350K .......... .......... .......... .......... .......... 87% 14.6M 0s
+  4400K .......... .......... .......... .......... .......... 88% 11.0M 0s
+  4450K .......... .......... .......... .......... .......... 89% 11.0M 0s
+  4500K .......... .......... .......... .......... .......... 90% 13.7M 0s
+  4550K .......... .......... .......... .......... .......... 91% 12.2M 0s
+  4600K .......... .......... .......... .......... .......... 92% 12.0M 0s
+  4650K .......... .......... .......... .......... .......... 93% 11.3M 0s
+  4700K .......... .......... .......... .......... .......... 94% 11.7M 0s
+  4750K .......... .......... .......... .......... .......... 95% 12.2M 0s
+  4800K .......... .......... .......... .......... .......... 96% 10.7M 0s
+  4850K .......... .......... .......... .......... .......... 97% 12.6M 0s
+  4900K .......... .......... .......... .......... .......... 98% 12.0M 0s
+  4950K .......... .......... .......... .......... .......... 99% 12.7M 0s
+  5000K .......... .......... .......                         100% 15.4M=2.4s
+
+2018-01-29 08:35:20 (2.07 MB/s) - 'gnutls-3.1.23.tar.xz' saved [5148432/5148432]
+
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+***
+*** Checking for compilation programs...
+
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for ranlib... ranlib
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking dependency style of gcc... gcc3
+checking the archiver (ar) interface... ar
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for autogen... /bin/true
+configure: WARNING:
+***
+*** autogen not found. Will not link against libopts.
+*** 
+checking for inline... inline
+checking for ANSI C header files... (cached) yes
+checking cpuid.h usability... yes
+checking cpuid.h presence... yes
+checking for cpuid.h... yes
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether to use nettle... yes
+checking for libnettle... no
+configure: error: 
+  ***
+  *** Libnettle 2.5 was not found. Note that you must compile nettle with gmp support.
+  
+make: *** No rule to make target 'uninstall'.  Stop.

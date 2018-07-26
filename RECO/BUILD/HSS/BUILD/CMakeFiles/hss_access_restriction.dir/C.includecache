@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oai/Downloads/RECO/SRC/OAI_HSS/access_restriction/access_restriction.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+stdint.h
+-
+conversion.h
+/home/oai/Downloads/RECO/SRC/OAI_HSS/access_restriction/conversion.h
+access_restriction.h
+/home/oai/Downloads/RECO/SRC/OAI_HSS/access_restriction/access_restriction.h
+log.h
+/home/oai/Downloads/RECO/SRC/OAI_HSS/access_restriction/log.h
+
+/home/oai/Downloads/RECO/SRC/OAI_HSS/access_restriction/access_restriction.h
+
+/home/oai/Downloads/RECO/SRC/OAI_HSS/utils/conversion.h
+
+/home/oai/Downloads/RECO/SRC/OAI_HSS/utils/log.h
+stdarg.h
+-
+syslog.h
+-
+

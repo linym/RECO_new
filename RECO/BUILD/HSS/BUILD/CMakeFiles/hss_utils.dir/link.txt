@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhss_utils.a  CMakeFiles/hss_utils.dir/home/oai/Downloads/RECO/SRC/OAI_HSS/utils/conversion.c.o CMakeFiles/hss_utils.dir/home/oai/Downloads/RECO/SRC/OAI_HSS/utils/hss_config.c.o CMakeFiles/hss_utils.dir/home/oai/Downloads/RECO/SRC/OAI_HSS/utils/pid_file.c.o
+/usr/bin/ranlib libhss_utils.a

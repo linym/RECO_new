@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhss_auc.a  CMakeFiles/hss_auc.dir/home/oai/Downloads/RECO/SRC/OAI_HSS/auc/fx.c.o CMakeFiles/hss_auc.dir/home/oai/Downloads/RECO/SRC/OAI_HSS/auc/kdf.c.o CMakeFiles/hss_auc.dir/home/oai/Downloads/RECO/SRC/OAI_HSS/auc/random.c.o CMakeFiles/hss_auc.dir/home/oai/Downloads/RECO/SRC/OAI_HSS/auc/rijndael.c.o CMakeFiles/hss_auc.dir/home/oai/Downloads/RECO/SRC/OAI_HSS/auc/sequence_number.c.o
+/usr/bin/ranlib libhss_auc.a

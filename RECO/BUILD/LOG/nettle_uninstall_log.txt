@@ -1,0 +1,239 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  adwaita-icon-theme at-spi2-core gir1.2-atk-1.0 gir1.2-atspi-2.0
+  gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0 gir1.2-gtk-3.0
+  gir1.2-pango-1.0 glib-networking glib-networking-common
+  glib-networking-services gsettings-desktop-schemas humanity-icon-theme
+  libatk-bridge2.0-0 libatk-bridge2.0-dev libatk1.0-0 libatk1.0-data
+  libatk1.0-dev libatspi2.0-0 libatspi2.0-dev libcairo-gobject2
+  libcairo-script-interpreter2 libcairo2-dev libdbus-1-dev libdrm-dev
+  libegl1-mesa-dev libepoxy-dev libepoxy0 libfontconfig1-dev libfreetype6-dev
+  libgdk-pixbuf2.0-dev libgirepository-1.0-1 libglib2.0-bin libglib2.0-dev
+  libgnutlsxx28 libgtk-3-0 libgtk-3-bin libgtk-3-common libharfbuzz-dev
+  libharfbuzz-gobject0 libharfbuzz-icu0 libice-dev libjson-glib-1.0-0
+  libjson-glib-1.0-common libmirclient-dev libmircommon-dev libmircookie-dev
+  libmircookie2 libmircore-dev libp11-kit-dev libpango1.0-dev
+  libpangoxft-1.0-0 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpixman-1-dev
+  libpng12-dev libprotobuf-dev libprotobuf9v5 librest-0.7-0 libsm-dev
+  libsoup-gnome2.4-1 libsoup2.4-1 libtasn1-6-dev libtasn1-doc libwayland-bin
+  libwayland-cursor0 libwayland-dev libwayland-egl1-mesa libx11-dev libx11-doc
+  libx11-xcb-dev libxau-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev
+  libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev
+  libxcb-shm0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev
+  libxcomposite-dev libxcursor-dev libxdamage-dev libxdmcp-dev libxext-dev
+  libxfixes-dev libxft-dev libxi-dev libxinerama-dev libxkbcommon-dev
+  libxrandr-dev libxrender-dev libxshmfence-dev libxtst-dev libxxf86vm-dev
+  ubuntu-mono x11proto-composite-dev x11proto-core-dev x11proto-damage-dev
+  x11proto-dri2-dev x11proto-fixes-dev x11proto-gl-dev x11proto-input-dev
+  x11proto-kb-dev x11proto-randr-dev x11proto-record-dev x11proto-render-dev
+  x11proto-xext-dev x11proto-xf86vidmode-dev x11proto-xinerama-dev
+  xorg-sgml-doctools xtrans-dev
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  libgnutls-dev libgtk-3-dev nettle-bin nettle-dev
+0 upgraded, 0 newly installed, 4 to remove and 0 not upgraded.
+After this operation, 16.4 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 65285 files and directories currently installed.)
+Removing libgnutls-dev:amd64 (3.4.10-4ubuntu1.4) ...
+Removing libgtk-3-dev:amd64 (3.18.9-1ubuntu3.3) ...
+Removing nettle-bin (3.2-1ubuntu0.16.04.1) ...
+Removing nettle-dev (3.2-1ubuntu0.16.04.1) ...
+Processing triggers for libglib2.0-0:amd64 (2.48.2-0ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Downloading nettle archive
+--2018-01-29 08:35:12--  https://ftp.gnu.org/gnu/nettle/nettle-2.5.tar.gz
+Resolving ftp.gnu.org (ftp.gnu.org)... 208.118.235.20, 2001:4830:134:3::b
+Connecting to ftp.gnu.org (ftp.gnu.org)|208.118.235.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1113274 (1.1M) [application/x-gzip]
+Saving to: 'nettle-2.5.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  4%  114K 9s
+    50K .......... .......... .......... .......... ..........  9%  231K 6s
+   100K .......... .......... .......... .......... .......... 13% 54.6M 4s
+   150K .......... .......... .......... .......... .......... 18% 85.4M 3s
+   200K .......... .......... .......... .......... .......... 22%  232K 3s
+   250K .......... .......... .......... .......... .......... 27% 42.2M 2s
+   300K .......... .......... .......... .......... .......... 32% 58.8M 2s
+   350K .......... .......... .......... .......... .......... 36% 90.7M 2s
+   400K .......... .......... .......... .......... .......... 41%  234K 2s
+   450K .......... .......... .......... .......... .......... 45% 66.4M 1s
+   500K .......... .......... .......... .......... .......... 50% 39.3M 1s
+   550K .......... .......... .......... .......... .......... 55% 9.67M 1s
+   600K .......... .......... .......... .......... .......... 59% 6.41M 1s
+   650K .......... .......... .......... .......... .......... 64% 13.1M 1s
+   700K .......... .......... .......... .......... .......... 68%  252K 1s
+   750K .......... .......... .......... .......... .......... 73% 61.6M 0s
+   800K .......... .......... .......... .......... .......... 78% 50.8M 0s
+   850K .......... .......... .......... .......... .......... 82% 66.0M 0s
+   900K .......... .......... .......... .......... .......... 87% 94.5M 0s
+   950K .......... .......... .......... .......... .......... 91% 69.2M 0s
+  1000K .......... .......... .......... .......... .......... 96% 26.3M 0s
+  1050K .......... .......... .......... .......              100% 14.2M=1.3s
+
+2018-01-29 08:35:15 (827 KB/s) - 'nettle-2.5.tar.gz' saved [1113274/1113274]
+
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for -R flag... using -Wl,-rpath,
+Searching for libraries
+checking /usr/lib... added
+checking /usr/local/lib... added
+checking /sw/local/lib... not found
+checking /sw/lib... not found
+checking /usr/gnu/lib... not found
+checking /opt/gnu/lib... not found
+checking /sw/gnu/lib... not found
+checking /usr/freeware/lib... not found
+checking /usr/pkg/lib... not found
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking whether make sets $(MAKE)... yes
+checking for ranlib... ranlib
+checking for nm... nm
+checking for objdump... objdump
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking whether ln -s works... yes
+configure: Compiler uses 64-bit ABI. To change, set CC.
+configure: Libraries to be installed in ${exec_prefix}/lib.
+configure: Looking for assembler files in x86_64/.
+checking CCPIC... -fpic
+checking if globals are prefixed by underscore... no
+checking if we should use a .note.GNU-stack section... yes
+checking for ELF-style .type,%function pseudo-ops... yes
+checking for ELF-style .type,#function pseudo-ops... no
+checking if .align assembly directive is logarithmic... no
+checking for m4... /usr/bin/m4
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for uid_t in sys/types.h... yes
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking size of long... 8
+checking alignment of uint64_t... 8
+checking openssl/blowfish.h usability... yes
+checking openssl/blowfish.h presence... yes
+checking for openssl/blowfish.h... yes
+checking openssl/des.h usability... yes
+checking openssl/des.h presence... yes
+checking for openssl/des.h... yes
+checking openssl/cast.h usability... yes
+checking openssl/cast.h presence... yes
+checking for openssl/cast.h... yes
+checking openssl/aes.h usability... yes
+checking openssl/aes.h presence... yes
+checking for openssl/aes.h... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for strerror... yes
+checking whether byte ordering is bigendian... no
+checking for memxor... no
+checking for __attribute__... yes
+checking for stdint types... stdint.h (shortcircuit)
+make use of stdint.h in nettle-stdint.h (assuming C99 compatible system)
+checking for fcntl file locking... yes
+checking for __gmpz_getlimbn in -lgmp... yes
+checking for __gmpz_powm_sec... yes
+checking for library containing clock_gettime... none required
+configure: creating ./config.status
+config.status: creating config.make
+config.status: creating config.m4
+config.status: creating Makefile
+config.status: creating tools/Makefile
+config.status: creating testsuite/Makefile
+config.status: creating examples/Makefile
+config.status: creating nettle.pc
+config.status: creating hogweed.pc
+config.status: creating config.h
+config.status: linking x86_64/aes-encrypt-internal.asm to aes-encrypt-internal.asm
+config.status: linking x86_64/aes-decrypt-internal.asm to aes-decrypt-internal.asm
+config.status: linking x86_64/camellia-crypt-internal.asm to camellia-crypt-internal.asm
+config.status: linking x86_64/memxor.asm to memxor.asm
+config.status: linking x86_64/salsa20-crypt.asm to salsa20-crypt.asm
+config.status: linking x86_64/serpent-encrypt.asm to serpent-encrypt.asm
+config.status: linking x86_64/serpent-decrypt.asm to serpent-decrypt.asm
+config.status: linking x86_64/sha1-compress.asm to sha1-compress.asm
+config.status: linking x86_64/machine.m4 to machine.m4
+config.status: executing dummy-dep-files commands
+config.status: executing nettle-stdint.h commands
+config.status: creating nettle-stdint.h : __NETTLE_STDINT_H
+configure: summary of build options:
+
+  Version:           nettle 2.5
+  Host type:         x86_64-unknown-linux-gnu
+  ABI:               64
+  Assembly files:    x86_64
+  Install prefix:    /usr
+  Library directory: ${exec_prefix}/lib
+  Compiler:          gcc
+  Shared libraries:  yes
+  Public key crypto: yes
+
+make uninstall-here
+make[1]: Entering directory '/tmp/nettle-2.5'
+if (install-info --version && \
+    install-info --version 2>&1 | sed 1q | grep -i -v debian) >/dev/null 2>&1; then \
+  install-info --info-dir="/usr/share/info" --remove "/usr/share/info"/nettle.info ; \
+else : ; fi
+rm -f /usr/share/info/nettle.info
+for f in aes.h arcfour.h arctwo.h asn1.h bignum.h blowfish.h base16.h base64.h buffer.h camellia.h cast128.h cbc.h ctr.h gcm.h des.h des-compat.h dsa.h hmac.h knuth-lfib.h macros.h md2.h md4.h md5.h md5-compat.h memxor.h nettle-meta.h nettle-types.h pgp.h pkcs1.h realloc.h ripemd160.h rsa.h rsa-compat.h salsa20.h sexp.h serpent.h sha.h twofish.h yarrow.h nettle-stdint.h ; do \
+  rm -f /usr/include/nettle/$f ; \
+done
+for f in libnettle.a  libhogweed.a ; do \
+  rm -f /usr/lib/$f ; \
+done
+for f in nettle.pc  hogweed.pc ; do \
+  rm -f /usr/lib/pkgconfig/$f ; \
+done
+rm -f /usr/lib/libnettle.so.4.4
+[ -z "libnettle.so.4" ] \
+	|| rm -f libnettle.so.4 libnettle.so
+rm -f /usr/lib/libhogweed.so.2.2
+[ -z "libhogweed.so.2" ] \
+	|| rm -f libhogweed.so.2 libhogweed.so
+make[1]: Leaving directory '/tmp/nettle-2.5'
+set -e; for d in tools testsuite examples; do \
+  echo "Making uninstall in $d" ; (cd $d && make uninstall); done
+Making uninstall in tools
+make[1]: Entering directory '/tmp/nettle-2.5/tools'
+for f in sexp-conv nettle-hash nettle-lfib-stream pkcs1-conv ; do \
+  rm -f /usr/bin/$f ; \
+done
+make[1]: Leaving directory '/tmp/nettle-2.5/tools'
+Making uninstall in testsuite
+make[1]: Entering directory '/tmp/nettle-2.5/testsuite'
+true
+make[1]: Leaving directory '/tmp/nettle-2.5/testsuite'
+Making uninstall in examples
+make[1]: Entering directory '/tmp/nettle-2.5/examples'
+true
+make[1]: Leaving directory '/tmp/nettle-2.5/examples'

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGTPV1U.a  CMakeFiles/GTPV1U.dir/RECO/SRC/GTPV1-U/gtpv1u_task.c.o CMakeFiles/GTPV1U.dir/RECO/SRC/GTPV1-U/gtpv1u_teid_pool.c.o CMakeFiles/GTPV1U.dir/RECO/SRC/GTPV1-U/gtp_mod_kernel.c.o
+/usr/bin/ranlib libGTPV1U.a

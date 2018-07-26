@@ -1,0 +1,2 @@
+/usr/bin/ar qc libITTI.a  CMakeFiles/ITTI.dir/RECO/SRC/COMMON/ITTI/intertask_interface.c.o CMakeFiles/ITTI.dir/RECO/SRC/COMMON/ITTI/backtrace.c.o CMakeFiles/ITTI.dir/RECO/SRC/COMMON/ITTI/memory_pools.c.o CMakeFiles/ITTI.dir/RECO/SRC/COMMON/ITTI/signals.c.o CMakeFiles/ITTI.dir/RECO/SRC/COMMON/ITTI/timer.c.o
+/usr/bin/ranlib libITTI.a
